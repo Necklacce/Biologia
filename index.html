@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Australopithecus</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header class="main-header">
+          <div class="layers">
+            <div class="layer__header">
+              <div class="layers__caption">Macacos do Sul</div>
+              <div class="layers__title">AUSTRALOPITHECUS</div>
+            </div>
+            <div
+              class="layer layers__base"
+              style="background-image: url(img/layer-base.png)"
+            ></div>
+            <div
+              class="layer layers__middle"
+              style="background-image: url(img/layer-middle.png)"
+            ></div>
+            <div
+              class="layer layers__front"
+              style="background-image: url(img/layer-front.png)"
+            ></div>
+          </div>
+        </header>
+        <section class="preview__container">
+          <article class="preview mobile" tabindex="0">
+            <img src="img/Habilidades.png" alt="">
+          </article>
+          <article class="preview mobile" tabindex="0">
+            <img src="img/Anatomia.png" alt="">
+          </article>
+          <article class="preview mobile" tabindex="0">
+            <img src="img/Tamanho do Crânio.png" alt="">
+          </article>
+        </section>
+        <section class="alimentos">
+          <div class="alimentos-wrapper">
+            <header class="info">
+              <hgroup class="hgroup">
+                <h2 class="titulo">Alimentação</h2>
+                <p class="subtitulo">A Dieta dos Australopithecus: Adaptação e Estratégias  </p>
+              </hgroup>    
+              <a href="#" class="section-link"></a>
+            </header>
+            <ul class="cards" style="--nth-siblings: 5">
+              <li class="card" style="--nth-child: 1">
+                <a href="" class="alimento-link-wrapper">
+                  <div class="visual">
+                    <img class="alimento-img" src="img/frutas silvestres.webp" width="144" height="144" alt="">
+                  </div>
+                  <div class="tooltiptext">
+                    <h3 class="Nome-Alimento">Frutas silvestres</h3>
+                    <div class="alimento-content-wrapper">
+                      <p class="alimento-titulo"></p>
+                      <p class="alimento-paragrafo">Figo, manga e frutas cítricas</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="card" style="--nth-child: 2">
+                <a href="" class="alimento-link-wrapper">
+                  <div class="visual">
+                    <img class="alimento-img" src="img/carne de roedor.webp" width="144" height="144" alt="">
+                  </div>
+                  <div class="tooltiptext">
+                    <h3 class="Nome-Alimento">Carne Crua</h3>
+                    <div class="alimento-content-wrapper">
+                      <p class="alimento-titulo"></p>
+                      <p class="alimento-paragrafo">Roedores e aves.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="card" style="--nth-child: 3">
+                <a href="" class="alimento-link-wrapper">
+                  <div class="visual">
+                    <img class="alimento-img" src="img/folhas.webp" width="144" height="144" alt="">
+                  </div>
+                  <div class="tooltiptext">
+                    <h3 class="Nome-Alimento">Folhas</h3>
+                    <div class="alimento-content-wrapper">
+                      <p class="alimento-titulo"></p>
+                      <p class="alimento-paragrafo">Folhas de bambu, árvores e arbustos.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="card" style="--nth-child: 4">
+                <a href="" class="alimento-link-wrapper">
+                  <div class="visual">
+                    <img class="alimento-img" src="img/Insetos.webp" width="144" height="144" alt="">
+                  </div>
+                  <div class="tooltiptext">
+                    <h3 class="Nome-Alimento">Insetos</h3>
+                    <div class="alimento-content-wrapper">
+                      <p class="alimento-titulo"></p>
+                      <p class="alimento-paragrafo">Formigas, besouros e grilos.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="card" style="--nth-child: 5">
+                <a href="" class="alimento-link-wrapper">
+                  <div class="visual">
+                    <img class="alimento-img" src="img/Peixes e Crustáceos.webp" width="144" height="144" alt="">
+                  </div>
+                  <div class="tooltiptext">
+                    <h3 class="Nome-Alimento">Frutos do Mar</h3>
+                    <div class="alimento-content-wrapper">
+                      <p class="alimento-titulo"></p>
+                      <p class="alimento-paragrafo">Peixes e Crustáceos.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="card" style="--nth-child: 6">
+                <a href="#" class="alimento-link-wrapper">
+                  <div class="visual">
+                    <img class="alimento-img" src="img/nozes.webp" width="144" height="144" alt="">
+                  </div>
+                  <div class="tooltiptext">
+                    <h3 class="Nome-Alimento">Oleaginosas</h3>
+                    <div class="alimento-content-wrapper">
+                      <p class="alimento-titulo"></p>
+                      <p class="alimento-paragrafo">Sementes e Nozes.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="comunicação">
+          <div class="bola-1"></div>
+          <div class="bola-2"></div>
+          <div class="bola-3"></div>
+          <div class="box">
+            <div class="contains">
+              <div class="section-1">
+                <h1>Comunicação</h1>
+                <h3>A Comunicação dos Australopitecos: <br>Sons, Gestos e a Evolução da Linguagem</h3>
+                <p>Os australopitecos, que viveram entre 4 e 2 milhões de anos atrás, provavelmente se comunicavam por vocalizações simples, gestos e expressões corporais para expressar emoções e interagir em grupo. Embora sua linguagem fosse rudimentar, ela desempenhou um papel fundamental na cooperação social e, com o tempo, evoluiu para formas mais complexas nos hominídeos posteriores.</p>
+              </div>
+              <div class="section-2">
+                <img src="img/Macaco.png">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="Adaptaçao">
+          <h2>Adaptações</h2>
+  
+          <ul class="shop-pets">
+              <li class="card-large card-light" id="adap">
+                  <div class="card-image"><img src="img/adaptações.webp"></div>
+                  <ul>
+                      Adaptações ao Meio Ambiente
+                  </ul>
+  
+  
+              </li>
+  
+              <li class="card-large card-dark" id="bip">
+                  <div class="card-image"><img src="img/bipedalismo.webp"></div>
+                  <ul>Bipedalismo
+                  </ul>
+  
+              </li>
+  
+              <li class="card-large card-dark" id="Estrutura">
+                  <div class="card-image"><img src="img/Estrutura.webp"> </div>
+                  <ul>Estrutura corporal
+                  </ul>
+  
+              </li>
+              <li class="card-large card-light" id="Comp">
+                  <div class="card-image"><img src="img/Comportamentos.webp"></div>
+                  <ul>
+                    Reprodução e Comportamento Social
+                  </ul>
+  
+              </li>
+              <li class="card-large card-light" id="dente">
+                <div class="card-image"><img src="img/Dentição.webp"></div>
+                <ul>
+                    Dieta e Dentição
+                </ul>
+
+            </li>
+            <li class="card-large card-light" id="complex">
+              <div class="card-image"><img src="img/complexidade cognitiva.webp"></div>
+              <ul>
+                  Complexidade Cognitiva
+              </ul>
+
+          </li>
+          </ul>
+      </section>
+      <button>Museu</button>
+      </div>
+    </div>
+  </body>
+</html>
